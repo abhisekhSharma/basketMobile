@@ -1,0 +1,31 @@
+
+.touch body {
+	width:100%;
+}
+
+header,
+footer,
+#tabletShim,
+#main-nav,
+#inPageMessage,
+#glbFloatDuck,
+.auto.lock,
+.checkout-messages{
+	display: none !important;
+}
+
+.wrap {
+	width: 100%;
+}
+
+.order-details-wrapper {
+
+}
+
+.basket-list td{
+	display: block;
+	width: 100%;
+}
+.basket-list td section {
+	width: 100%
+}
