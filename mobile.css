@@ -9,8 +9,7 @@ footer,
 #main-nav,
 #inPageMessage,
 #glbFloatDuck,
-.auto.lock,
-.checkout-messages{
+.auto.lock{
 	display: none !important;
 }
 
@@ -26,6 +25,367 @@ footer,
 	display: block;
 	width: 100%;
 }
+.basket-list tr{
+  background: white;
+}
 .basket-list td section {
 	width: 100%
+}
+
+
+#basket-page {
+  margin-top: 44px;
+  background: #E6E6E6;
+  position: relative;
+}
+
+#basket-page .basket-header .basket-title-area h1 {
+  float: left;
+  width: 50%;
+  font-size: 24px;
+  font-family: "HelveticaNeueW01-45Ligh" !important;
+  padding: 10px 0;
+}
+#basket-page .basket-header .basket-title-area h1 img {
+  vertical-align: middle;
+  margin-right: 7px;
+  width: 38px;
+}
+
+.basket-title-area {
+  overflow: hidden;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px dotted #9B9B9B;
+}
+
+#basket-page .order-details-sub-heading{
+  float: right;
+  width: 50%;
+  border-top: 0;
+  padding: 10px 0;
+}
+#basket-page .btn-checkout {
+  height: 35px;
+  width: 116px;
+  font-size: 18px !important;
+  padding: 0 10px !important;
+  line-height: 32px;
+}
+#basket-page .btn-checkout.icon-secure:before {
+  background-position: 0 -734px !important;
+  padding-left: 16px !important;
+}
+#basket-page .basket-promo-code-area {
+  width: 100% !important;
+  padding: 0 !important;
+}
+#basket-page .basket-promo-code-area {
+  margin: 0px;
+}
+.order-details-wrapper thead tr {
+  height:3px;
+}
+.order-details-wrapper thead tr th {
+  display: none;
+}
+#basket-page .basket-summary-section {
+  overflow: hidden;
+  padding: 0 10px;
+  height: 350px;
+  margin-top: 10px;
+}
+#basket-page .basket-summary-section fieldset, #basketPaymentSummary {
+  background: #FFF;
+  margin-bottom: 10px;
+}
+
+.basket .order-details-wrapper .order-payment-details-alternate {
+  display: table;
+}
+.basket .order-details-wrapper .order-detail {
+  width: 100% !important;
+  display: table-row;
+  border-bottom: 1px dotted #9B9B9B;
+  padding: 5px 0;
+}
+.basket .order-details-wrapper .order-detail:last-child {
+  border-bottom: 0;
+}
+.basket .order-details-wrapper .promo-label {
+  display: table-cell;
+  text-align: left;
+  font-family: HelveticaNeueW01-45Ligh;
+  font-size: 12px;
+  border-right: 1px dotted #D0D0D0;
+  width: 75% !important;
+  height: 34px;
+  line-height: 34px;
+  padding-right: 2%;
+}
+.basket .order-detail .promo-price {
+  display: table-cell;
+  width: 21% !important;
+  font-size: 13px !important;
+  text-align: left;
+  font-weight: bold;
+  height: 34px;
+  line-height: 34px;
+  padding: 0 0 0 2%;
+  margin-right: -1px;
+}
+
+.basket .order-details-wrapper .promo-price.delivery-cost {
+  font-family: "HelveticaNeueW01-45Ligh";
+  text-align: left;
+  height: 34px;
+  line-height: 17px;
+}
+.basket .order-details-wrapper .promo-label a {
+  padding-left: 0;
+}
+
+.basket .order-details-wrapper .fielditem label.apply-promo-code-link {
+  padding: 2px;
+  font-size: 13px;
+}
+.basket .order-details-wrapper .basket-summary-section .content {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  border-bottom: 0 !important;
+}
+.basket .order-details-wrapper .basket-promo-code-area .fielditem input[type="text"] {
+  width: 85%;
+  float: left;
+}
+.basket .order-details-wrapper .basket-promo-code-area input.secondary-btn[type="submit"] {
+  width: 15%;
+  float: right;
+  height: 36px;
+  margin-left: 0;
+  padding: 0;  
+}
+.basket-promo-code-area #form-promo-apply {
+  width: 100%;
+}
+#basket-page {
+
+}
+.checkout-messages {
+  display: block !important;
+  position: absolute;
+  bottom: 415px;
+  z-index: 1;
+  left: 20px;
+  font-size: 10px;
+  font-family: "HelveticaNeueW01-45Ligh" !important;
+  width: 285px;
+}
+#basket-page .giftReminder {
+  display: block;
+  position: absolute;
+  bottom: 370px;
+  z-index: 1;
+  left: 55px;
+  font-family: Georgia;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 18px;
+  width: 250px;
+}
+#basket-page .basket-utility-links-border .basket-utility-links {
+  width: auto;
+  float: none;
+}
+#basket-page .basket-utility-links-border .payment-methods-accepted, #basket-page .basket-utility-links-border .basket-utility-links p, #basket-page .basket-utility-links-border .basket-utility-links ul {
+  width: 100% !important;
+  overflow: hidden;
+  padding: 0;
+}
+#basket-page .basket-utility-links-border {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  background: none;
+  border-top: 0;
+}
+
+#basket-page .basket-utility-links-border .basket-utility-links .help-with-order, #basket-page .basket-utility-links ul li, #basket-page .basket-utility-links-border .basket-utility-links .help-with-order {
+  width: 100%;
+  float: none;
+  display: block;
+  min-height: 40px;
+  line-height: 40px;
+  padding-left: 15px;
+  background: #FFF;
+  border-top: 1px solid #BABABA;
+  font-family: HelveticaNeueW01-45Ligh;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+#basket-page .basket-utility-links ul li:last-child {
+  border-bottom: 1px solid #BABABA;
+}
+
+#basket-page .basket-utility-links-border .payment-methods-accepted {
+  width: 100%;
+}
+#basket-page .basket-utility-links-border .payment-methods-accepted p, #basket-page .basket-utility-links-border .payment-methods-accepted ul{
+  width: 100%;
+  display: block;
+  min-height: 40px;
+  line-height: 40px;
+  padding: 0;
+  background: #FFF;
+  border-top: 1px solid #BABABA;
+  text-align: center;
+}
+#basket-page .basket-utility-links-border .payment-methods-accepted ul{
+  padding: 10px 0 0 6%;
+  float: none;
+  overflow: hidden;
+  border-bottom: 1px solid #BABABA;
+  
+}
+#basket-page .accordion-facet .heading, #basket-page .accordion-facet .heading span {
+  background-color: #FFF !important;
+  font-size: 13px;
+}
+
+
+
+order-details-wrapper table,
+.basket-list{
+  width: 100%;
+}
+
+.order-details-wrapper table{
+}
+
+.product-info-wrap{
+  float: left;
+  width: 13em!important;
+}
+.actions{
+  clear:both;
+  float: none;
+    background: #F8F8F8;
+    float: left;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding: 0px!important
+}
+.actions a, a.gift-options{
+  background: #F8F8F8!important;
+  border: none!important;
+  color: #2a2a2a!important;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+a.gift-options:before{
+    background-image: url('http://eu.usablenet.net/mt/a/marksandspencer.com/l1392685356000/images/icons/icon_gift.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 10px 12px;
+  padding-left: 16px;
+  left: 5px!important;
+}
+.actions .gift-message:before, .actions .gift-options:before{
+  background-position: 0!important;
+}
+.order-item td:nth-child(2){
+  height: 100px;
+  float: left;
+  width: 100px;
+  top: -71px;
+  z-index: 1;
+  left: 220px;
+  border-left:1px dotted black;
+}
+.order-item td:nth-child(2):before,.order-item td:nth-child(2):after, .order-item td:nth-child(4),
+.delivery-options-info.delivery-named
+ {
+  display: none;
+}
+.order-item td:nth-child(3)
+{
+  float: left;
+  border: none;
+  width: 100px;
+  top: -87px
+}
+.order-item td:nth-child(3)
+{
+  float: left;
+  
+  width: 100px;
+  top: -87px
+}
+
+input.quantity-value{
+  height: 18px!important;
+  margin-top: 1px!important;
+}
+.touch #basket-page .order-section.delivery{
+  position: absolute; 
+  top: 133px;
+  margin: 0px!important
+}
+
+section.delivery-options-info {
+  width: 115px!important;
+  float: left;
+  margin-bottom: 0px!important;
+  padding-top: 5px;
+  margin-left: 10px!important;
+  
+}
+
+.delivery-wrap.order-section.delivery, .delivery-detail{
+  width: 100%!important;
+  height: 30px!important;
+  margin: 0px!important;
+  background:#F5F5F5;
+}
+
+.delivery-options-info.delivery-store p{
+  content: 'Delivery';
+}
+
+.order-item td:before, .order-item td:after{
+display: none;
+}
+
+.product-item{
+  height: 50px;
+}
+
+.basket .my-account .order-details-wrapper .set-quantity{
+  top:110px!important;
+  left:50px!important;
+}
+
+.heading-product a{
+  font-weight: bold;
+}
+.order-details-wrapper .order-detail>p{
+margin-left: 20px;
+}
+
+.set-quantity-update{
+left: 48px;
+  top: 40px;
+}
+
+.touch .set-quantity .minus:hover, .touch .set-quantity .plus:hover {
+   background: none;
+}
+.order-details-wrapper .delivery-detail{
+padding: 0px!important;
+}
+
+.touch .basket-list .actions, .order-item section.product-item{
+width:100%!important;
 }
