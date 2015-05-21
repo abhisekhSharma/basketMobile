@@ -255,12 +255,9 @@ footer,
 
 
 
-order-details-wrapper table,
+.order-details-wrapper table,
 .basket-list{
   width: 100%;
-}
-
-.order-details-wrapper table{
 }
 
 .product-info-wrap{
